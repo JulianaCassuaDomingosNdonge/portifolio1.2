@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    background-image: linear-gradient(to right, rgb(27, 27, 66), rgb(20, 9, 70));
+    color: aliceblue;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#imagem{
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    border-radius: 0px 0px 100px 100px;
+    box-shadow: 0px 10px  60px 30px rgba(19, 59, 133, 0.212); 
+    
+
+}
+#FOTO{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 100px 100px;
+      
+}
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-image: linear-gradient(to right, rgb(34, 34, 66), rgba(2, 1, 7, 0.623));
+    width: 800px;
+    height: 1600px;
+
+}
+.apresentacao{
+    margin-top: 40px;
+}
+.destaque{
+    color: rgb(77, 77, 112);
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    text-decoration:wavy;
+}
+.nome{
+    margin-top: -20px;
+
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(9, 9, 141);
+    color: aliceblue;
+    border-style: none ;
+    padding: 9px;
+    border-radius: 10px;
+}
+.txtCentro{
+    text-align: center;
+}
+.couxetes{
+    color: rgb(9, 9, 141);
+    font-weight: 9000;
+}
+.projetos{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+ justify-content: center;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color:  rgba(13, 7, 39, 0.459);
+    border-radius: 30px;
+
+}
+.imagem-projeto{
+    margin-top: 10px;
+    margin-left: 10px;   
+    margin-bottom: -5px; 
+}
+.desc-projet{
+    margin-top: -15px;
+    margin-left: -25px;
+    font-size: 12px;
+    color: rgb(184, 189, 189);
+}
+.titulo-projet{
+    margin-left: -25px;
+}
+#pro2{
+    margin-left: -2px;
+
+}
+.espaco{
+    margin-top: 100px;
+}
+.habilidades{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+ justify-content: center;
+}
+.links{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+ justify-content: left;
+}
+#redes{
+    margin-top: 150px;
+    margin-bottom: -30px;
+}
+footer{
+    background-color: rgb(9, 9, 141);
+   width: 1000px;
+   height: 40px;
+   margin-bottom: 50px;
+}
+#rodape{
+    padding-left: 20px;
+    
+}
+#desp{
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+ justify-content: right;
+}
+.voltar{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
